@@ -1,17 +1,12 @@
-version: "3"
-
+version: "3.8"
 services:
-
-  could-weather-postgres:
-    image: debezium/postgres:13-alpine
+  db:
+    image: postgres:14.3-alpine
+    restart: always
     environment:
-      - POSTGRES_DATABASE=could_weather_dev
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=aPPle45!
     ports:
       - 5432:5432
     volumes:
-      - postgres-data:/data/db
-
-volumes:
-  postgres-data:
+      - ./postgres-data:/var/lib/postgresql/data

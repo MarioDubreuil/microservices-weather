@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# macOS Desktop Services Store
+.DS_Store
+
+# local folder for Docker Postgres database files
+/postgres-data
