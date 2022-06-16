@@ -23,8 +23,12 @@
 
   <ItemGroup>
     <None Remove="DataAccess\" />
+    <None Remove="BusinessLogic\" />
+    <None Remove="Config\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
+    <Folder Include="BusinessLogic\" />
+    <Folder Include="Config\" />
   </ItemGroup>
 </Project>
