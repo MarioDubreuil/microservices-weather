@@ -25,10 +25,12 @@
     <None Remove="DataAccess\" />
     <None Remove="BusinessLogic\" />
     <None Remove="Config\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
     <Folder Include="BusinessLogic\" />
     <Folder Include="Config\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
